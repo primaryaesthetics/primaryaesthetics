@@ -4,13 +4,14 @@ Independent researcher and programming educator. I read theory papers and
 measure what they promise.
 
 **[Out of Time](https://github.com/primaryaesthetics/out-of-time-tfm-credit)** —
-a pre-registered out-of-time evaluation of the tabular foundation models
-TabPFN-3 and TabICLv2 on credit default. Both are read on the origination
+an out-of-time calibration and stability evaluation of the tabular foundation
+models TabPFN-3 and TabICLv2 on credit default, under kill criteria written
+before any foundation model was fitted. Both are read on the origination
 vintages of Lending Club and Freddie Mac, beside a weight-of-evidence
 scorecard and a tuned gradient-boosting model. At the softmax temperature of
 0.9 the packages ship, both models' mean probability on their own context
 rows is 0.656 to 0.736 of the realised default rate on Lending Club; at 1.0,
-observed over expected holds one. Every number in the paper traces to a
+observed over expected on those rows holds one. Every number in the paper traces to a
 recorded run through a claim ledger.
 [Paper DOI 10.5281/zenodo.22999138](https://doi.org/10.5281/zenodo.22999138) ·
 [Code DOI 10.5281/zenodo.22994434](https://doi.org/10.5281/zenodo.22994434) ·
